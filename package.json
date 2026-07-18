@@ -8,6 +8,7 @@
   ],
   "license": "ISC",
   "author": "jorler",
+
  
   "main": "index.js",
    "type": "module",
