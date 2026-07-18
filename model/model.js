@@ -4,7 +4,6 @@ export const getUsuariosFromDb = () => {
     const data = fs.readFileSync("./db.json", "utf-8");
     const json = JSON.parse(data);
     // Si no existe la propiedad 'users', retornamos un array vacío
-    return json.users || [];
 };
 
 export const saveUsuariosToDb = (usuarios) => {
